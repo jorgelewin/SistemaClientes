@@ -14,6 +14,7 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    
     @Column(name = "cli_dni")
     private int dni;
     @Column(name = "cli_apellidos")
