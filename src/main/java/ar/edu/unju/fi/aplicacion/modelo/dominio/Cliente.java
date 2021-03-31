@@ -7,7 +7,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+/**
+ * 
+ * Entidad Cliente
+ * 
+ */
 @Entity
 @Table(name = "CLIENTES")
 public class Cliente {
